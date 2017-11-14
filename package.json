@@ -1,0 +1,28 @@
+{
+  "name": "ts-either",
+  "version": "0.0.0",
+  "description": "An implementation of Either for typescript",
+  "main": "dist/cjs/index.js",
+  "module": "dist/modules/index.js",
+  "typings": "dist/modules/index.d.ts",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "npm run lint && npm run buildCommonjs && npm run buildModules",
+    "buildCommonjs": "tsc --project tsconfig.commonjs.json",
+    "buildModules": "tsc --project tsconfig.json",
+    "lint": "tslint --format prose --project tsconfig.base.json"
+  },
+  "license": "UNLICENCED",
+  "devDependencies": {
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "files": [
+    "dist"
+  ]
+}
