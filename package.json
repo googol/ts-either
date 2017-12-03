@@ -16,6 +16,7 @@
     "lint": "tslint --format prose --project tsconfig.base.json"
   },
   "license": "UNLICENCED",
+  "repository": "googol/ts-either",
   "devDependencies": {
     "tslint": "^5.8.0",
     "typescript": "^2.6.1"
