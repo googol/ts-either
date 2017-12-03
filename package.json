@@ -23,7 +23,9 @@
     "typescript": "^2.6.1"
   },
   "dependencies": {},
-  "peerDependencies": {},
+  "peerDependencies": {
+    "ts-either-type": "^1.0.0"
+  },
   "files": [
     "dist"
   ]
