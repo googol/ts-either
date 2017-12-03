@@ -1,2 +1,3 @@
-# Either type for typescript
-This package defines the Either type for representing the result of a computation that might fail.
+# Either type operations for typescript
+This package defines operations on the Either type.
+It peer depends on the Either type from `ts-either-type`; it needs to be installed as well.
